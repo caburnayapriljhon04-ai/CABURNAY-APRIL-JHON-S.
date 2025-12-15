@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Home</title>
+<style>
+body{
+    font-family: 'Poppins', sans-serif;
+
+    /* BACKGROUND IMAGE */
+    background: url("autom.webp") no-repeat center center fixed;
+    background-size: cover;
+
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+/* Dark overlay for better readability */
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+a{
+    display: block;
+    margin: 15px auto;
+    font-size: 22px;
+    color: white;
+    background: rgba(110, 139, 61, 0.9);
+    width: 300px;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: transform 0.2s, background 0.2s;
+}
+
+a:hover{
+    background: #8aa95a;
+    transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+<h1>Welcome!</h1>
+<p>Select a page:</p>
+
+<a href="reflection.html">Personal Reflection Page</a>
+<a href="advocacy.html">Community Service / Advocacy Page</a>
+<a href="portfolio.html">Portfolio Page</a>
+<a href="ethics.html">Digital Ethics Page</a>
+<a href="faithtech.html">Faith & Technology Page</a>
+
+</body>
+</html>
